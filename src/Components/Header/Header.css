@@ -1,0 +1,36 @@
+.header{
+    height: 60px;
+    background: #333333;
+    width: 100%;
+    position: fixed;
+    z-index: 110;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    margin: 5px 12%;
+    height: 60px;
+}
+
+.menu-item, .hover-white{
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+}
+
+
+.hover-white:hover{
+    background: white;
+    color: #333333;
+    border: 1px solid white;
+}
+.menu-item:hover{
+    background: #474747;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.5;
+}
